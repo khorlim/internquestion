@@ -25,5 +25,5 @@ for i in range(1,101):
 # Create file if not exist or open the file 
 file = open('output.json', 'w') 
 
-#Write file 
+# Write file 
 json.dump(output, file)
